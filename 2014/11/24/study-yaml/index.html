@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>学习yaml | HTOOOTH</title>
+  <meta name="author" content="TaoHuang">
+  
+  <meta name="description" content="YAML 是一种标记语言，它非常容易学习。今天我们就来学习一下：
+
+YAML使用可打印的Unicode字符，可使用UTF-8或UTF-16。
+使用空白字符为文件缩排来表示结构；不过不能使用跳格字符(TAB)。
+注解由井字号( # )开始，可以出现在一行中的任何位置，而且范围只有一行(也就是一般所谓的">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="学习yaml"/>
+  <meta property="og:site_name" content="HTOOOTH"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/favicon.png" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="HTOOOTH" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+
+</head>
+
+
+<body>
+  <header id="header" class="inner"><div class="alignleft">
+  <h1><a href="/">HTOOOTH</a></h1>
+  <h2><a href="/">不是每个人都是英雄，总得有人在路旁鼓掌。</a></h2>
+</div>
+<nav id="main-nav" class="alignright">
+  <ul>
+    
+      <li><a href="/">首页</a></li>
+    
+      <li><a href="/archives">存档</a></li>
+    
+      <li><a href="https://github.com/htoooth">github</a></li>
+    
+  </ul>
+  <div class="clearfix"></div>
+</nav>
+<div class="clearfix"></div></header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper"><article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2014-11-24T12:24:14.000Z"><a href="/2014/11/24/study-yaml/">11月 24 2014</a></time>
+      
+      
+  
+    <h1 class="title">学习yaml</h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>YAML 是一种标记语言，它非常容易学习。今天我们就来学习一下：</p>
+<ul>
+<li>YAML使用可打印的Unicode字符，可使用UTF-8或UTF-16。</li>
+<li>使用空白字符为文件缩排来表示结构；不过不能使用跳格字符(TAB)。</li>
+<li>注解由井字号( # )开始，可以出现在一行中的任何位置，而且范围只有一行(也就是一般所谓的单行注解)</li>
+<li>每个数组成员以单行表示，并用短杠+空白(- )起始。或使用方括号([ ])，并用逗号+空白(, )分开成员。</li>
+<li>每个字典的成员用冒号+空白(: )分开键值和内容。或使用大括号( {   } )，并用逗号+空白( ,   )分开。</li>
+<li>字典的键值可以用问号 ( ? )起始，用来明确的表示多个词汇组成的键值。</li>
+<li>字串平常并不使用引号，但必要的时候可以用双引号 ( “ )或单引号 ( ‘ )框住。</li>
+<li>使用双引号表示字串时，可用倒斜线( \ )开始的跳脱字符(这跟C语言类似)表示特殊字符。</li>
+<li>区块的字串用缩排和修饰词(非必要)来和其他资料分隔，有新行保留(preserve)(使用符号 | )或新行折叠(flod)(使用符号 &gt; )两种方式。</li>
+<li>在单一档案中，可用连续三个连字号(—-)区分多个档案。</li>
+<li>另外，还有选择性的连续三个点号( … )用来表示档案结尾。</li>
+<li>重复的内容可使从参考标记星号 ( * )复制到锚点标记( &amp; )。</li>
+<li>指定格式可以使用两个惊叹号 ( !! )，后面接上名称。</li>
+<li>档案中的单一文件可以使用指导指令，使用方法是百分比符号( % )。有两个指导指令在YAML1.1版中被定义：</li>
+<li>%YAML 指导指令，用来识别文件的YAML版本。</li>
+<li>%TAG 指导指令，被用在URI的字首标记。这个方法在标记节点的型态时相当有用。</li>
+<li>YAML再使用逗号及冒号时，后面都必须接一个空白字符，所以可以再字串或数值中自由加入分隔符号(例如：5,280或<a href="http://www.wikipedia.org)而不需要使用引号。" target="_blank" rel="external">http://www.wikipedia.org)而不需要使用引号。</a></li>
+<li>另外还有两个特殊符号在YAML中被保留，有可能在未来的版本被使用( @ )和( ` )。</li>
+</ul>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+<section id="comment">
+  <h1 class="title">留言</h1>
+
+  
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+  
+</section>
+
+</div></div>
+    <aside id="sidebar" class="alignright">
+  
+
+  
+</aside>
+    <div class="clearfix"></div>
+  </div>
+  <footer id="footer" class="inner"><div class="alignleft">
+  
+  &copy; 2014 TaoHuang
+  
+</div>
+<div class="clearfix"></div></footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'htoooth';
+
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+</body>
+</html>
